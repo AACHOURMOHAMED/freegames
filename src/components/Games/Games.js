@@ -19,7 +19,8 @@ const Games = () => {
     <div className={classes.card}>
       {
         !loading ? (
-          games?.map((game) => (
+          // filter games by sart year 2013 2015 2018
+          games.filter((game) => game.year_start === '2013' || game.year_start === '2015' || game.year_start === '2018').map((game) => (
             <GamesItem
               key={game.id}
               id={game.id}

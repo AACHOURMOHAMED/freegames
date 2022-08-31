@@ -1,13 +1,14 @@
 /* eslint-disable import/prefer-default-export */
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
-import * as types from '../types';
+import types from '../types';
 
 const URL = 'https://api.rawg.io/api';
+const API_KEY = 'b83701e00bdf4e8fa7e7e7c8f6c1d9cb';
 
 export const getGames = createAsyncThunk(types.GET_GAMES,
   async () => {
-    const { data } = await axios.get(`${URL}/games?key=b83701e00bdf4e8fa7e7e7c8f6c1d9cb`);
+    const { data } = await axios.get(`${URL}/games?key=${API_KEY}`);
     const games = data.results.map((game) => ({
       id: game.id,
       title: game.name,

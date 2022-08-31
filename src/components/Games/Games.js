@@ -25,7 +25,7 @@ const Games = () => {
   return (
     <>
       <div className={classes.search}>
-        <input type="text" placeholder="Search" onChange={handleChange} value={search} />
+        <input type="text" placeholder="Search..." onChange={handleChange} value={search} />
       </div>
       <div className={classes.card}>
         {

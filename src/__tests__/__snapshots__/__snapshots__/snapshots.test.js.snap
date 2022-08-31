@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test screenshots for all components matches GameDetails snapshot 1`] = `
+<div
+  className="spinner-border text-primary"
+  role="status"
+>
+  <span
+    className="sr-only"
+  >
+    Loading...
+  </span>
+</div>
+`;
+
+exports[`test screenshots for all components matches Games snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="spinner-border text-primary"
+    role="status"
+  >
+    <span
+      className="sr-only"
+    >
+      Loading...
+    </span>
+  </div>
+</div>
+`;

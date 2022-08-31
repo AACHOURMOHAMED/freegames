@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { getGames } from '../../store/actions';
+import Header from '../Header/header';
 import classes from './gameDetail.module.scss';
 
 const GameDetail = () => {
@@ -30,6 +31,7 @@ const GameDetail = () => {
         <>
 
           <div className={classes.detailsCard}>
+            <Header />
             <div className={classes.card_info}>
               <ul key={game.id}>
                 <li>{game.title}</li>
@@ -42,61 +44,52 @@ const GameDetail = () => {
           </div>
           <div className={classes.card_info__details}>
             <ul key={game.id}>
-              <li>
+              <li className={classes.item}>
                 PLATHPHORMS:
                 {' '}
                 {game.platphorm}
               </li>
-              <hr />
-              <li>
+              <li className={classes.item}>
                 GENRE:
                 {' '}
                 {game.gener}
               </li>
-              <hr />
-              <li>
+              <li className={classes.item}>
                 RELEASE DATE:
                 {' '}
                 {game.released}
               </li>
-              <hr />
-              <li>
+              <li className={classes.item}>
                 YEAR START:
                 {' '}
                 {game.year_start}
               </li>
-              <hr />
-              <li>
+              <li className={classes.item}>
                 UPDATED:
                 {' '}
                 {game.updated}
               </li>
-              <hr />
-              <li>
+              <li className={classes.item}>
                 RATING:
                 {' '}
                 {game.rating}
               </li>
-              <hr />
-              <li>
+              <li className={classes.item}>
                 SUGGESTIONS COUNT:
                 {' '}
                 {game.suggestions_count}
               </li>
-              <hr />
-              <li>
+              <li className={classes.item}>
                 PLAYSTIME:
                 {' '}
                 {game.playtime}
               </li>
-              <hr />
-              <li>
+              <li className={classes.item}>
                 STORES:
                 {' '}
                 {game.stores}
               </li>
-              <hr />
-              <li>
+              <li className={classes.item}>
                 TAGS:
                 {' '}
                 {game.tags}

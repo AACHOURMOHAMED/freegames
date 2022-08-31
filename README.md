@@ -1,56 +1,53 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# FREE GAMES
 
-> Description the project.
+# FREE GAMES TO PLAY
 
+> This website allows you to look for all games and the most famous one
+
+ home page                                  
+:------------------------------------------:
+
+![dddddddddddddddddssssssssss](https://user-images.githubusercontent.com/92208712/187707969-02face7d-5f04-444a-94f2-960d3b8ed539.PNG)
+
+ details popup
+:------------------------------------------:
+
+![Captureddd](https://user-images.githubusercontent.com/92208712/187707992-3bdc2de5-bba0-45fe-8df6-9709c4ac4c2f.PNG)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5, CSS3, and ES6
+- React
+- Redux
+- git
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://sweet-phoenix-a4260b.netlify.app/)
 
+## Video Description
+
+[Video Link](https://www.loom.com/share/5e15c90422d1430a99e20374f1320f41)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+- go to the directory that you want to clone the repository in.
+- right click and choose Git Bash here.
+- type ```https://github.com/AACHOURMOHAMED/freegames.git```.
+- run "npm install" and then "npm start"
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **AshourMohamed**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/AACHOURMOHAMED)
+- Twitter: [@twitterhandle](https://twitter.com/MohamedAachour3)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/mohamed-aachour-25405b215)
 
 ## 🤝 Contributing
 
@@ -64,9 +61,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- The design for this project was inspired by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio). The design can be found [here](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29).
 
 ## 📝 License
 

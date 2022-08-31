@@ -24,7 +24,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://sweet-phoenix-a4260b.netlify.app/)
+[Live Demo Link](https://freegamescap.netlify.app/)
 
 ## Video Description
 

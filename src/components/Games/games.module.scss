@@ -1,0 +1,41 @@
+.search {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  z-index: 999;
+  height: 50px;
+
+  input {
+    width: 100%;
+    padding: 2px 8px;
+    border-radius: 5px;
+    border: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+
+  .notFound {
+    color: #fff;
+    margin-top: 80px;
+    margin-left: 40px;
+
+    h1 {
+      font-size: 30px;
+      font-weight: bold;
+    }
+  }
+}

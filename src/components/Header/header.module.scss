@@ -1,0 +1,14 @@
+.back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  color: #fff;
+  background-color: #272b30;
+  width: 30px;
+  height: 30px;
+  z-index: 2;
+  margin: 10px;
+  border-radius: 8px;
+}

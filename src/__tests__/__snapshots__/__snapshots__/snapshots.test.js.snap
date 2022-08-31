@@ -18,6 +18,16 @@ exports[`test screenshots for all components matches Games snapshot 1`] = `
   className="card"
 >
   <div
+    className="search"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search..."
+      type="text"
+      value=""
+    />
+  </div>
+  <div
     className="spinner-border text-primary"
     role="status"
   >
@@ -86,6 +96,16 @@ exports[`test screenshots for all components matches redux store snapshot 1`] = 
 <div
   className="card"
 >
+  <div
+    className="search"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search..."
+      type="text"
+      value=""
+    />
+  </div>
   <div
     className="spinner-border text-primary"
     role="status"

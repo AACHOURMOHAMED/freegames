@@ -42,7 +42,7 @@
     }
   }
 
-  &:first-child {
+  &:nth-child(2) {
     grid-column: 1 / span 2;
     height: 210px;
   }

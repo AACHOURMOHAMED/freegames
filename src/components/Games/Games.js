@@ -23,12 +23,11 @@ const Games = () => {
     .includes(search.toLowerCase()));
 
   return (
-    <>
+    <div className={classes.card}>
       <div className={classes.search}>
         <input type="text" placeholder="Search..." onChange={handleChange} value={search} />
       </div>
-      <div className={classes.card}>
-        {
+      {
         !loading ? (
           filteredGames.length > 0 ? (
             filteredGames.map((game) => (
@@ -54,8 +53,7 @@ const Games = () => {
 
         )
         }
-      </div>
-    </>
+    </div>
 
   );
 };

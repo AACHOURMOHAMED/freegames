@@ -43,7 +43,7 @@ const Games = () => {
             ))
           ) : (
             <div className={classes.notFound}>
-              <h1>Game not found</h1>
+              <h1>No games found</h1>
             </div>
           )
 

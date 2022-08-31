@@ -56,39 +56,4 @@ describe('test screenshots for all components', () => {
 
     expect(tree).toMatchSnapshot();
   });
-
-  test('matches redux store snapshot', () => {
-    const tree = TestRenderer.create(
-      <Provider store={store}>
-        <Router>
-          <Games />
-        </Router>
-      </Provider>,
-    ).toJSON();
-
-    expect(tree).toMatchSnapshot();
-  });
-
-  // define game object
-  const game = {
-    id: 1,
-    title: 'test',
-    gener: 'test',
-    platphorm: 'test',
-    released: 'test',
-    image: 'test',
-  };
-
-  // test redux store
-  test('matches redux store snapshot', () => {
-    const tree = TestRenderer.create(
-      <Provider store={store}>
-        <Router>
-          <GameDetail game={game} />
-        </Router>
-      </Provider>,
-    ).toJSON();
-
-    expect(tree).toMatchSnapshot();
-  });
 });

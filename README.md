@@ -24,11 +24,11 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://sweet-phoenix-a4260b.netlify.app/)
 
 ## Video Description
 
-[Video Link]()
+[Video Link](https://www.loom.com/share/5e15c90422d1430a99e20374f1320f41)
 
 ## Getting Started
 

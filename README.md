@@ -8,7 +8,8 @@
  home page                                  
 :------------------------------------------:
 
-![dddddddddddddddddssssssssss](https://user-images.githubusercontent.com/92208712/187707969-02face7d-5f04-444a-94f2-960d3b8ed539.PNG)
+![dddsssee](https://user-images.githubusercontent.com/92208712/187834966-223ea5a7-767c-4548-8cd2-bc0decba3aab.PNG)
+
 
  details popup
 :------------------------------------------:

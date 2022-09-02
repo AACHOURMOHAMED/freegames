@@ -11,7 +11,7 @@
 ![dddsssee](https://user-images.githubusercontent.com/92208712/187834966-223ea5a7-767c-4548-8cd2-bc0decba3aab.PNG)
 
 
- details popup
+ details page
 :------------------------------------------:
 
 ![Captureddd](https://user-images.githubusercontent.com/92208712/187707992-3bdc2de5-bba0-45fe-8df6-9709c4ac4c2f.PNG)
